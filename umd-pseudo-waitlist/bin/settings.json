@@ -1,0 +1,59 @@
+{
+    "options": {
+        "delay": 60,
+        "timeout": 5000,
+        "request-attempts": 3,
+        "year": "2023",
+        "semester": 08
+    },
+    "courses": [
+        {
+            "course": "CMSC330",
+            "section": "0103",
+            "waitlist": false
+        }
+    ],
+    "data": {
+        "urlbase": "https://app.testudo.umd.edu/soc/search?",
+        "site-name": "Schedule of Classes",
+        "html-class-name": "open-seats-count",
+        "dialog_open": "&s IS OPEN WITH &d SEATS AVAILABLE."
+        "search-option-keys": [
+            "course": "courseId",
+            "section": "sectionId",
+            "semester": "termId"
+        ],
+        "other-search-options": [
+            "_openSectionsOnly": "on",
+            "creditCompare": "",
+            "credits": "",
+            "courseLevelFilter": "ALL",
+            "instructor": "",
+            "_facetoface": "on",
+            "_blended": "on",
+            "_online": "on",
+            "courseStartCompare": "",
+            "courseStartHour": "",
+            "courseStartMin": "",
+            "courseStartAM": "",
+            "courseEndHour": "",
+            "courseEndMin": "",
+            "courseEndAM": "",
+            "teachingCenter": "ALL",
+            "_classDay1": "on",
+            "_classDay2": "on",
+            "_classDay3": "on",
+            "_classDay4": "on",
+            "_classDay5": "on"
+        ],
+        "error_codes": [
+            0: "%d seats open at &s.",
+            -1: "Loading document timed out.",
+            -2: "Could not connect to URL.",
+            -3: "Error with finding HTML element.",
+            -4: "Website has incorrect name."
+            -5: "Error with parsing number of seats."
+            
+        ]
+    },
+}
